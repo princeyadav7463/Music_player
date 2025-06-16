@@ -1,0 +1,40 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.player {
+  background: #222;
+  padding: 30px;
+  border-radius: 20px;
+  width: 300px;
+  margin: auto;
+}
+
+.cover-img {
+  width: 250px; /* Adjust width */
+  height: 250px; /* Adjust height */
+  object-fit: cover; /* Fit nicely */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Optional shadow */
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin: 10px;
+  font-size: 24px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #444;
+  color: white;
+  cursor: pointer;
+}
+
+#progress {
+  width: 100%;
+  margin-top: 20px;
+}
